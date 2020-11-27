@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST">
+        Id: <input type="text" name="txtid" readonly value="<%=Usuario._id%>">
+        Nome: <input type="text" name="txtnome" placeholder="Nome" value="<%=Usuario.nome%>"></br>
+        Email: <input type="email" name="txtemail" placeholder="Email" value="<%=Usuario.email%>"></br>
+        Senha: <input type="password" name="txtsenha" placeholder="Senha" value="<%=Usuario.senha%>"></br>
+        Foto: <input type="file" name="txtfoto"></br>
+        <input type="submit" name="adicionar">
+
+    </form>
+</body>
+</html>
